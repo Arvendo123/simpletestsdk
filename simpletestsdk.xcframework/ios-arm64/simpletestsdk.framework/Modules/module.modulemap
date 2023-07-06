@@ -1,0 +1,11 @@
+framework module simpletestsdk {
+  umbrella header "simpletestsdk.h"
+
+  export *
+  module * { export * }
+}
+
+module simpletestsdk.Swift {
+  header "simpletestsdk-Swift.h"
+  requires objc
+}

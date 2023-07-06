@@ -1,0 +1,15 @@
+build/
+DerivedData/
+simpletestsdk/
+simpletestsdkTests/
+*.xcworkspace
+*.xcodeproj
+
+Pods/
+
+.DS_Store
+xcuserdata/
+
+secrets/
+
+docs/
