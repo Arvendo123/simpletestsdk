@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.license 	 		 = { :type => 'MIT', :file => 'LICENSE' }
   spec.author       		 = { "Arvendo" => "arvendo@doku.com" }
   spec.platform     		 = :ios, "11.4"
-  spec.source       		 = { :git => "https://github.com/Arvendo123/Test-VerificationPageSDK-Test.git", :tag => spec.version.to_s }
+  spec.source       		 = { :git => "https://github.com/Arvendo123/simpletestsdk.git", :tag => spec.version.to_s }
   spec.requires_arc 		 = true
   spec.preserve_paths      = "simpletestsdk.xcframework"
   spec.vendored_frameworks = "simpletestsdk.xcframework"
