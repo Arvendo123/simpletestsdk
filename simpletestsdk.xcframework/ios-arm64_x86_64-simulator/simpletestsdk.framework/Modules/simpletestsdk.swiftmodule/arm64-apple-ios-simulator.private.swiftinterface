@@ -2,12 +2,17 @@
 // swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios11.4-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name simpletestsdk
 // swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
 import Swift
 import UIKit
 import _Concurrency
 import _StringProcessing
 @_exported import simpletestsdk
+public struct PublicStruct {
+  public init(content: Swift.String)
+}
 @_hasMissingDesignatedInitializers public class EntryInterface {
-  public func startPageFlow(currentViewController: UIKit.UIViewController, endFlowViewController: UIKit.UIViewController?)
+  public static let sharedInstance: simpletestsdk.EntryInterface
+  public func startPageFlow(currentViewController: UIKit.UIViewController, endFlowViewController: UIKit.UIViewController?, publicStruct: simpletestsdk.PublicStruct)
   @objc deinit
 }

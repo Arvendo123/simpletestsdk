@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/simpletestsdk.h</key>
 		<data>
-		fT4KAmfj19X/i1FCDU111t7mxaw=
+		qBaN2ypxHHDjK8S5T6D/vZCj3vI=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/simpletestsdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Tq+I0OGAP7SL6qx7oG3t8EI8vVw=
+		sjGDklnmiimt1dfw75aHTaSrq6A=
 		</data>
 		<key>Modules/simpletestsdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		EivaDCAUFUT9CKUMDjMk8O47lsQ=
+		ojF3qDMZuL3NuWhMAHrNMlGacos=
 		</data>
 		<key>Modules/simpletestsdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -34,19 +34,19 @@
 		</data>
 		<key>Modules/simpletestsdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		EivaDCAUFUT9CKUMDjMk8O47lsQ=
+		ojF3qDMZuL3NuWhMAHrNMlGacos=
 		</data>
 		<key>Modules/simpletestsdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		D3SFmceRfZu5S3beG/XNMMxExOw=
+		LvnBKH0/6Bnhp6I89N2DVdxth1k=
 		</data>
 		<key>Modules/simpletestsdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Tq+I0OGAP7SL6qx7oG3t8EI8vVw=
+		sjGDklnmiimt1dfw75aHTaSrq6A=
 		</data>
 		<key>Modules/simpletestsdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		yNH9vkgHTdUcD/GFWyw3CIV9NNI=
+		zuMagCKRSpwOFs8JLYwuQ/zb19g=
 		</data>
 		<key>Modules/simpletestsdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>Modules/simpletestsdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		yNH9vkgHTdUcD/GFWyw3CIV9NNI=
+		zuMagCKRSpwOFs8JLYwuQ/zb19g=
 		</data>
 		<key>Modules/simpletestsdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		rElKz5VAU4oZQDHAuNApVFkLUEo=
+		OM6K23e3wWS39bkASLrKBB1GguA=
 		</data>
 		<key>PageStoryboard.storyboardc/Info.plist</key>
 		<data>
@@ -86,7 +86,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			f8A7p94BUdccpwiaTSkVXpjUAaZliLRxkFDzv2WCgLM=
+			B7Ito5vXPM2h3bA/4LZY87dmXj6Y91S8mQ9dPKTAltc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -100,14 +100,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			n24/4Vvwf/97GvusWr2NwrZ8EEdhDQL9KIxxk8ECZUo=
+			oH2nMVHLpymQM2JEISz3vScnLYY7knlcxIt27AxFDcU=
 			</data>
 		</dict>
 		<key>Modules/simpletestsdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jmXVarSurqhus5Yvv0R8rj1b/AIHyZSuIWlbFDq5tG8=
+			SGEAXN0osFUqJAokqLD25smstM9NxW+F5/lIE3oJyqg=
 			</data>
 		</dict>
 		<key>Modules/simpletestsdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -121,28 +121,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jmXVarSurqhus5Yvv0R8rj1b/AIHyZSuIWlbFDq5tG8=
+			SGEAXN0osFUqJAokqLD25smstM9NxW+F5/lIE3oJyqg=
 			</data>
 		</dict>
 		<key>Modules/simpletestsdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rHPaLMZVLA2uK86W5LasxGYGWSwMSynL2Zlz6WHNuMg=
+			/2CBH8mumDXY7KK2JXamwHMp3JhzFmdiLSj7q7mNg5g=
 			</data>
 		</dict>
 		<key>Modules/simpletestsdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			n24/4Vvwf/97GvusWr2NwrZ8EEdhDQL9KIxxk8ECZUo=
+			oH2nMVHLpymQM2JEISz3vScnLYY7knlcxIt27AxFDcU=
 			</data>
 		</dict>
 		<key>Modules/simpletestsdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Zngj3cEaHxpcRzop+bH4wRp3ps+eFasq1aan2lsD3b0=
+			5BDa+2FH5/XtOkeNIoqiI9UtUFaDkDbbPSFpDjtkCDU=
 			</data>
 		</dict>
 		<key>Modules/simpletestsdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -156,14 +156,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Zngj3cEaHxpcRzop+bH4wRp3ps+eFasq1aan2lsD3b0=
+			5BDa+2FH5/XtOkeNIoqiI9UtUFaDkDbbPSFpDjtkCDU=
 			</data>
 		</dict>
 		<key>Modules/simpletestsdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Dyrsxqlg4uBfygsOz64d3IU/b2T6ekvEDtYK/Xm0pBE=
+			9S7uUqP+Wdbopntul2ZOr9yaIoACKOZIuxKPBmtlIbg=
 			</data>
 		</dict>
 		<key>PageStoryboard.storyboardc/Info.plist</key>

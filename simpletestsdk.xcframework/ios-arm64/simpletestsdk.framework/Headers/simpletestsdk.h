@@ -23,9 +23,24 @@ NS_ASSUME_NONNULL_BEGIN
 
 SWIFT_NAME(EntryInterface)
 @interface EntryInterface : NSObject
+@property (class, readonly) EntryInterface *sharedInstance;
 
 - (void)startPageFlowWithCurrentViewController:(UIViewController *)currentViewController
-                        endFlowViewController:(nullable UIViewController *)endFlowViewController;
+                         endFlowViewController:(nullable UIViewController *)endFlowViewController;
+
+@end
+
+NS_ASSUME_NONNULL_END
+
+#import <Foundation/Foundation.h>
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface PublicStruct : NSObject
+
+@property (nonatomic, copy) NSString *content;
+
+- (instancetype)initWithContent:(NSString *)content;
 
 @end
 

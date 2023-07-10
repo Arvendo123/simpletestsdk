@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/simpletestsdk.h</key>
 		<data>
-		fT4KAmfj19X/i1FCDU111t7mxaw=
+		qBaN2ypxHHDjK8S5T6D/vZCj3vI=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/simpletestsdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		Tq+I0OGAP7SL6qx7oG3t8EI8vVw=
+		sjGDklnmiimt1dfw75aHTaSrq6A=
 		</data>
 		<key>Modules/simpletestsdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		/kACh7ih69t/z0bTpx7EpwSCwT0=
+		wS9IhuVdD1Em5eYcO9Iq0ayX7HE=
 		</data>
 		<key>Modules/simpletestsdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/simpletestsdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		/kACh7ih69t/z0bTpx7EpwSCwT0=
+		wS9IhuVdD1Em5eYcO9Iq0ayX7HE=
 		</data>
 		<key>Modules/simpletestsdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		I3qZtJlQsfi7PnLCxCiOEZz5+V0=
+		NyWwpuHJV0lMhRmuMDQcgeAlYG8=
 		</data>
 		<key>PageStoryboard.storyboardc/Info.plist</key>
 		<data>
@@ -66,7 +66,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			f8A7p94BUdccpwiaTSkVXpjUAaZliLRxkFDzv2WCgLM=
+			B7Ito5vXPM2h3bA/4LZY87dmXj6Y91S8mQ9dPKTAltc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -80,14 +80,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			n24/4Vvwf/97GvusWr2NwrZ8EEdhDQL9KIxxk8ECZUo=
+			oH2nMVHLpymQM2JEISz3vScnLYY7knlcxIt27AxFDcU=
 			</data>
 		</dict>
 		<key>Modules/simpletestsdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jXF8fKIwDRczMspaqum6f/sq3fhkA/nJMdXDau8CAXw=
+			Xhtf/eHIhvrJ5MiwhpIwXYGR0/g7Z1KqSKFF/4+z/gY=
 			</data>
 		</dict>
 		<key>Modules/simpletestsdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -101,14 +101,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jXF8fKIwDRczMspaqum6f/sq3fhkA/nJMdXDau8CAXw=
+			Xhtf/eHIhvrJ5MiwhpIwXYGR0/g7Z1KqSKFF/4+z/gY=
 			</data>
 		</dict>
 		<key>Modules/simpletestsdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LPJ30HvfB1sRZ3wK86NNFhLaqzG4UQuVFHInmEodnU8=
+			x4xLaHMfpOk1FEiopPLkWoa+7cv++YkGVBZ5gqY1jw0=
 			</data>
 		</dict>
 		<key>PageStoryboard.storyboardc/Info.plist</key>

@@ -6,6 +6,57 @@
     "children": [
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "simpletestsdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PublicStruct",
+        "printedName": "PublicStruct",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(content:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PublicStruct",
+                "printedName": "simpletestsdk.PublicStruct",
+                "usr": "s:13simpletestsdk12PublicStructV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13simpletestsdk12PublicStructV7contentACSS_tcfc",
+            "mangledName": "$s13simpletestsdk12PublicStructV7contentACSS_tcfc",
+            "moduleName": "simpletestsdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13simpletestsdk12PublicStructV",
+        "mangledName": "$s13simpletestsdk12PublicStructV",
+        "moduleName": "simpletestsdk",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -30,9 +81,60 @@
         "printedName": "EntryInterface",
         "children": [
           {
+            "kind": "Var",
+            "name": "sharedInstance",
+            "printedName": "sharedInstance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EntryInterface",
+                "printedName": "simpletestsdk.EntryInterface",
+                "usr": "s:13simpletestsdk14EntryInterfaceC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13simpletestsdk14EntryInterfaceC14sharedInstanceACvpZ",
+            "mangledName": "$s13simpletestsdk14EntryInterfaceC14sharedInstanceACvpZ",
+            "moduleName": "simpletestsdk",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EntryInterface",
+                    "printedName": "simpletestsdk.EntryInterface",
+                    "usr": "s:13simpletestsdk14EntryInterfaceC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13simpletestsdk14EntryInterfaceC14sharedInstanceACvgZ",
+                "mangledName": "$s13simpletestsdk14EntryInterfaceC14sharedInstanceACvgZ",
+                "moduleName": "simpletestsdk",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "startPageFlow",
-            "printedName": "startPageFlow(currentViewController:endFlowViewController:)",
+            "printedName": "startPageFlow(currentViewController:endFlowViewController:publicStruct:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -58,11 +160,17 @@
                   }
                 ],
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PublicStruct",
+                "printedName": "simpletestsdk.PublicStruct",
+                "usr": "s:13simpletestsdk12PublicStructV"
               }
             ],
             "declKind": "Func",
-            "usr": "s:13simpletestsdk14EntryInterfaceC13startPageFlow21currentViewController03endfhI0ySo06UIViewI0C_AHSgtF",
-            "mangledName": "$s13simpletestsdk14EntryInterfaceC13startPageFlow21currentViewController03endfhI0ySo06UIViewI0C_AHSgtF",
+            "usr": "s:13simpletestsdk14EntryInterfaceC13startPageFlow21currentViewController03endfhI012publicStructySo06UIViewI0C_AISgAA06PublicL0VtF",
+            "mangledName": "$s13simpletestsdk14EntryInterfaceC13startPageFlow21currentViewController03endfhI012publicStructySo06UIViewI0C_AISgAA06PublicL0VtF",
             "moduleName": "simpletestsdk",
             "declAttributes": [
               "AccessControl"
@@ -110,7 +218,7 @@
     {
       "filePath": "\/Users\/arvendoworkspace\/Desktop\/Work\/ios\/sdk distribute\/sdk wallet\/sdk dev only\/simpletestsdk\/simpletestsdk\/simpletestsdk\/Page\/EntryInterface.swift",
       "kind": "BooleanLiteral",
-      "offset": 396,
+      "offset": 486,
       "length": 4,
       "value": "true"
     },
