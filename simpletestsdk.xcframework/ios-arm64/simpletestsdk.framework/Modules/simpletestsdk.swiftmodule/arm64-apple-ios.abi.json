@@ -20,6 +20,98 @@
         "printedName": "PublicStruct",
         "children": [
           {
+            "kind": "Var",
+            "name": "content",
+            "printedName": "content",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@simpletestsdk@objc(cs)PublicStruct(py)content",
+            "mangledName": "$s13simpletestsdk12PublicStructC7contentSSvp",
+            "moduleName": "simpletestsdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@simpletestsdk@objc(cs)PublicStruct(im)content",
+                "mangledName": "$s13simpletestsdk12PublicStructC7contentSSvg",
+                "moduleName": "simpletestsdk",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@simpletestsdk@objc(cs)PublicStruct(im)setContent:",
+                "mangledName": "$s13simpletestsdk12PublicStructC7contentSSvs",
+                "moduleName": "simpletestsdk",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13simpletestsdk12PublicStructC7contentSSvM",
+                "mangledName": "$s13simpletestsdk12PublicStructC7contentSSvM",
+                "moduleName": "simpletestsdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(content:)",
@@ -28,7 +120,7 @@
                 "kind": "TypeNominal",
                 "name": "PublicStruct",
                 "printedName": "simpletestsdk.PublicStruct",
-                "usr": "s:13simpletestsdk12PublicStructV"
+                "usr": "c:@M@simpletestsdk@objc(cs)PublicStruct"
               },
               {
                 "kind": "TypeNominal",
@@ -38,21 +130,105 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:13simpletestsdk12PublicStructV7contentACSS_tcfc",
-            "mangledName": "$s13simpletestsdk12PublicStructV7contentACSS_tcfc",
+            "usr": "c:@M@simpletestsdk@objc(cs)PublicStruct(im)initWithContent:",
+            "mangledName": "$s13simpletestsdk12PublicStructC7contentACSS_tcfc",
             "moduleName": "simpletestsdk",
+            "objc_name": "initWithContent:",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PublicStruct",
+                "printedName": "simpletestsdk.PublicStruct",
+                "usr": "c:@M@simpletestsdk@objc(cs)PublicStruct"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@simpletestsdk@objc(cs)PublicStruct(im)init",
+            "mangledName": "$s13simpletestsdk12PublicStructCACycfc",
+            "moduleName": "simpletestsdk",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
             ],
             "init_kind": "Designated"
           }
         ],
-        "declKind": "Struct",
-        "usr": "s:13simpletestsdk12PublicStructV",
-        "mangledName": "$s13simpletestsdk12PublicStructV",
+        "declKind": "Class",
+        "usr": "c:@M@simpletestsdk@objc(cs)PublicStruct",
+        "mangledName": "$s13simpletestsdk12PublicStructC",
         "moduleName": "simpletestsdk",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
         ]
       },
       {
@@ -89,11 +265,11 @@
                 "kind": "TypeNominal",
                 "name": "EntryInterface",
                 "printedName": "simpletestsdk.EntryInterface",
-                "usr": "s:13simpletestsdk14EntryInterfaceC"
+                "usr": "c:@M@simpletestsdk@objc(cs)EntryInterface"
               }
             ],
             "declKind": "Var",
-            "usr": "s:13simpletestsdk14EntryInterfaceC14sharedInstanceACvpZ",
+            "usr": "c:@M@simpletestsdk@objc(cs)EntryInterface(cpy)sharedInstance",
             "mangledName": "$s13simpletestsdk14EntryInterfaceC14sharedInstanceACvpZ",
             "moduleName": "simpletestsdk",
             "static": true,
@@ -101,7 +277,8 @@
               "HasInitialValue",
               "Final",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -115,17 +292,18 @@
                     "kind": "TypeNominal",
                     "name": "EntryInterface",
                     "printedName": "simpletestsdk.EntryInterface",
-                    "usr": "s:13simpletestsdk14EntryInterfaceC"
+                    "usr": "c:@M@simpletestsdk@objc(cs)EntryInterface"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13simpletestsdk14EntryInterfaceC14sharedInstanceACvgZ",
+                "usr": "c:@M@simpletestsdk@objc(cs)EntryInterface(cm)sharedInstance",
                 "mangledName": "$s13simpletestsdk14EntryInterfaceC14sharedInstanceACvgZ",
                 "moduleName": "simpletestsdk",
                 "static": true,
                 "implicit": true,
                 "declAttributes": [
-                  "Final"
+                  "Final",
+                  "ObjC"
                 ],
                 "accessorKind": "get"
               }
@@ -165,27 +343,111 @@
                 "kind": "TypeNominal",
                 "name": "PublicStruct",
                 "printedName": "simpletestsdk.PublicStruct",
-                "usr": "s:13simpletestsdk12PublicStructV"
+                "usr": "c:@M@simpletestsdk@objc(cs)PublicStruct"
               }
             ],
             "declKind": "Func",
-            "usr": "s:13simpletestsdk14EntryInterfaceC13startPageFlow21currentViewController03endfhI012publicStructySo06UIViewI0C_AISgAA06PublicL0VtF",
-            "mangledName": "$s13simpletestsdk14EntryInterfaceC13startPageFlow21currentViewController03endfhI012publicStructySo06UIViewI0C_AISgAA06PublicL0VtF",
+            "usr": "c:@M@simpletestsdk@objc(cs)EntryInterface(im)startPageFlowWithCurrentViewController:endFlowViewController:publicStruct:",
+            "mangledName": "$s13simpletestsdk14EntryInterfaceC13startPageFlow21currentViewController03endfhI012publicStructySo06UIViewI0C_AISgAA06PublicL0CtF",
             "moduleName": "simpletestsdk",
+            "objc_name": "startPageFlowWithCurrentViewController:endFlowViewController:publicStruct:",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EntryInterface",
+                "printedName": "simpletestsdk.EntryInterface",
+                "usr": "c:@M@simpletestsdk@objc(cs)EntryInterface"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@simpletestsdk@objc(cs)EntryInterface(im)init",
+            "mangledName": "$s13simpletestsdk14EntryInterfaceCACycfc",
+            "moduleName": "simpletestsdk",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
-        "usr": "s:13simpletestsdk14EntryInterfaceC",
+        "usr": "c:@M@simpletestsdk@objc(cs)EntryInterface",
         "mangledName": "$s13simpletestsdk14EntryInterfaceC",
         "moduleName": "simpletestsdk",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "ObjC"
         ],
-        "hasMissingDesignatedInitializers": true
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -201,6 +463,13 @@
     "json_format_version": 8
   },
   "ConstValues": [
+    {
+      "filePath": "\/Users\/arvendoworkspace\/Desktop\/Work\/ios\/sdk distribute\/sdk wallet\/sdk dev only\/simpletestsdk\/simpletestsdk\/simpletestsdk\/Page\/PublicStruct.swift",
+      "kind": "StringLiteral",
+      "offset": 135,
+      "length": 12,
+      "value": "\"simpletestsdk.PublicStruct\""
+    },
     {
       "filePath": "\/Users\/arvendoworkspace\/Desktop\/Work\/ios\/sdk distribute\/sdk wallet\/sdk dev only\/simpletestsdk\/simpletestsdk\/simpletestsdk\/Page\/PageRouter.swift",
       "kind": "StringLiteral",
@@ -218,7 +487,7 @@
     {
       "filePath": "\/Users\/arvendoworkspace\/Desktop\/Work\/ios\/sdk distribute\/sdk wallet\/sdk dev only\/simpletestsdk\/simpletestsdk\/simpletestsdk\/Page\/EntryInterface.swift",
       "kind": "BooleanLiteral",
-      "offset": 486,
+      "offset": 505,
       "length": 4,
       "value": "true"
     },

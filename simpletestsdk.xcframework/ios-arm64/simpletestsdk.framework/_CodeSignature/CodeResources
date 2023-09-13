@@ -6,11 +6,11 @@
 	<dict>
 		<key>Headers/simpletestsdk-Swift.h</key>
 		<data>
-		LV40U9uRzkU6QdJGqcRiXT0lL2w=
+		tHj//jIWQ16Oq+o7fqMVoRza6tM=
 		</data>
 		<key>Headers/simpletestsdk.h</key>
 		<data>
-		qBaN2ypxHHDjK8S5T6D/vZCj3vI=
+		gxE5cUG3Q4wD+BGYD67vOamINKo=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/simpletestsdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		sjGDklnmiimt1dfw75aHTaSrq6A=
+		jKZmRDEGcEc5dHUihNopgOJlPoQ=
 		</data>
 		<key>Modules/simpletestsdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		wS9IhuVdD1Em5eYcO9Iq0ayX7HE=
+		qE2vnKHNANHHbLA8KdmdIcezkQ0=
 		</data>
 		<key>Modules/simpletestsdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/simpletestsdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		wS9IhuVdD1Em5eYcO9Iq0ayX7HE=
+		qE2vnKHNANHHbLA8KdmdIcezkQ0=
 		</data>
 		<key>Modules/simpletestsdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		NyWwpuHJV0lMhRmuMDQcgeAlYG8=
+		ECj9sUAeo8CkwixPK/9GBhTGAww=
 		</data>
 		<key>PageStoryboard.storyboardc/Info.plist</key>
 		<data>
@@ -59,14 +59,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bqXtcUlt7irYzhXXykWqUz8A6bjr7njxHcBLC5CQylE=
+			1ipQZWJcHg3EKCS4Gwm+3BBH+/JYj4LMyL8bYLA+KFU=
 			</data>
 		</dict>
 		<key>Headers/simpletestsdk.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			B7Ito5vXPM2h3bA/4LZY87dmXj6Y91S8mQ9dPKTAltc=
+			ecR78/5iJ8606VBWmA+Qw5tN+DZek+NMVrE56QMVGiA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -80,14 +80,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oH2nMVHLpymQM2JEISz3vScnLYY7knlcxIt27AxFDcU=
+			i1BsyWzSLdIWxM5r8aZS6E9ZrWb4os2eVTtb0xjdH9c=
 			</data>
 		</dict>
 		<key>Modules/simpletestsdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Xhtf/eHIhvrJ5MiwhpIwXYGR0/g7Z1KqSKFF/4+z/gY=
+			ea7iNCQoxHyBL0zzHh183/Omq0ec1W98ogs2uEqXel8=
 			</data>
 		</dict>
 		<key>Modules/simpletestsdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -101,14 +101,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Xhtf/eHIhvrJ5MiwhpIwXYGR0/g7Z1KqSKFF/4+z/gY=
+			ea7iNCQoxHyBL0zzHh183/Omq0ec1W98ogs2uEqXel8=
 			</data>
 		</dict>
 		<key>Modules/simpletestsdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			x4xLaHMfpOk1FEiopPLkWoa+7cv++YkGVBZ5gqY1jw0=
+			CRVVjufemLQTfS8ZD8Ai6wvjKIOFXbRW4awRvpJkkZw=
 			</data>
 		</dict>
 		<key>PageStoryboard.storyboardc/Info.plist</key>

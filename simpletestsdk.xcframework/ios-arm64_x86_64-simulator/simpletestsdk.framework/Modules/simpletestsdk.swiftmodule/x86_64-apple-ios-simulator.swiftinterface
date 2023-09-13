@@ -8,11 +8,14 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 @_exported import simpletestsdk
-public struct PublicStruct {
-  public init(content: Swift.String)
+@objc public class PublicStruct : ObjectiveC.NSObject {
+  @objc public var content: Swift.String
+  @objc public init(content: Swift.String)
+  @objc deinit
 }
-@_hasMissingDesignatedInitializers public class EntryInterface {
-  public static let sharedInstance: simpletestsdk.EntryInterface
-  public func startPageFlow(currentViewController: UIKit.UIViewController, endFlowViewController: UIKit.UIViewController?, publicStruct: simpletestsdk.PublicStruct)
+@_inheritsConvenienceInitializers @objc public class EntryInterface : ObjectiveC.NSObject {
+  @objc public static let sharedInstance: simpletestsdk.EntryInterface
+  @objc public func startPageFlow(currentViewController: UIKit.UIViewController, endFlowViewController: UIKit.UIViewController?, publicStruct: simpletestsdk.PublicStruct)
+  @objc override dynamic public init()
   @objc deinit
 }

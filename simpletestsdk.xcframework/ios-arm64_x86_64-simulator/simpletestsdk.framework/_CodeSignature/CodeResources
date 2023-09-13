@@ -6,11 +6,11 @@
 	<dict>
 		<key>Headers/simpletestsdk-Swift.h</key>
 		<data>
-		rrbT3y3ZLJTUlCiTdazau5myMc0=
+		VzXFweknomWQdu7cx1x352UN6mM=
 		</data>
 		<key>Headers/simpletestsdk.h</key>
 		<data>
-		qBaN2ypxHHDjK8S5T6D/vZCj3vI=
+		gxE5cUG3Q4wD+BGYD67vOamINKo=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/simpletestsdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		sjGDklnmiimt1dfw75aHTaSrq6A=
+		jKZmRDEGcEc5dHUihNopgOJlPoQ=
 		</data>
 		<key>Modules/simpletestsdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ojF3qDMZuL3NuWhMAHrNMlGacos=
+		8TeJyqD6xX2MmQUOfUEOpD9hgSA=
 		</data>
 		<key>Modules/simpletestsdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -34,19 +34,19 @@
 		</data>
 		<key>Modules/simpletestsdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ojF3qDMZuL3NuWhMAHrNMlGacos=
+		8TeJyqD6xX2MmQUOfUEOpD9hgSA=
 		</data>
 		<key>Modules/simpletestsdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		LvnBKH0/6Bnhp6I89N2DVdxth1k=
+		/0U3sI/I6g6PKQBGyidVGv8F/No=
 		</data>
 		<key>Modules/simpletestsdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		sjGDklnmiimt1dfw75aHTaSrq6A=
+		jKZmRDEGcEc5dHUihNopgOJlPoQ=
 		</data>
 		<key>Modules/simpletestsdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		zuMagCKRSpwOFs8JLYwuQ/zb19g=
+		Wjv3sRtyMS1yN9OEL2tBXoiPF4U=
 		</data>
 		<key>Modules/simpletestsdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>Modules/simpletestsdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		zuMagCKRSpwOFs8JLYwuQ/zb19g=
+		Wjv3sRtyMS1yN9OEL2tBXoiPF4U=
 		</data>
 		<key>Modules/simpletestsdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		OM6K23e3wWS39bkASLrKBB1GguA=
+		MLCrjlaSrCl4HYp2Dcy3/y3PVlg=
 		</data>
 		<key>PageStoryboard.storyboardc/Info.plist</key>
 		<data>
@@ -79,14 +79,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ae/ugslVKes68Z3y4YkmH5Xw0wh8SGBqWaCdZ6aDUZU=
+			JzeRNCmDqBr5evzaR/usyAigJ87QHBNon3JBislklQM=
 			</data>
 		</dict>
 		<key>Headers/simpletestsdk.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			B7Ito5vXPM2h3bA/4LZY87dmXj6Y91S8mQ9dPKTAltc=
+			ecR78/5iJ8606VBWmA+Qw5tN+DZek+NMVrE56QMVGiA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -100,14 +100,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oH2nMVHLpymQM2JEISz3vScnLYY7knlcxIt27AxFDcU=
+			i1BsyWzSLdIWxM5r8aZS6E9ZrWb4os2eVTtb0xjdH9c=
 			</data>
 		</dict>
 		<key>Modules/simpletestsdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SGEAXN0osFUqJAokqLD25smstM9NxW+F5/lIE3oJyqg=
+			2h7pqOj1dVI+6N90IciM0EUXFD/g3zGvciepZh3QpNk=
 			</data>
 		</dict>
 		<key>Modules/simpletestsdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -121,28 +121,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SGEAXN0osFUqJAokqLD25smstM9NxW+F5/lIE3oJyqg=
+			2h7pqOj1dVI+6N90IciM0EUXFD/g3zGvciepZh3QpNk=
 			</data>
 		</dict>
 		<key>Modules/simpletestsdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/2CBH8mumDXY7KK2JXamwHMp3JhzFmdiLSj7q7mNg5g=
+			mSm7Cc3oBtfEOVr6e81Lx+bBYursiBsQZYN+2HsID7Y=
 			</data>
 		</dict>
 		<key>Modules/simpletestsdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oH2nMVHLpymQM2JEISz3vScnLYY7knlcxIt27AxFDcU=
+			i1BsyWzSLdIWxM5r8aZS6E9ZrWb4os2eVTtb0xjdH9c=
 			</data>
 		</dict>
 		<key>Modules/simpletestsdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5BDa+2FH5/XtOkeNIoqiI9UtUFaDkDbbPSFpDjtkCDU=
+			J+F9jgYJ8dG6s0R5w82ckzc4l9tiYq39I4hGLeUjEnk=
 			</data>
 		</dict>
 		<key>Modules/simpletestsdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -156,14 +156,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5BDa+2FH5/XtOkeNIoqiI9UtUFaDkDbbPSFpDjtkCDU=
+			J+F9jgYJ8dG6s0R5w82ckzc4l9tiYq39I4hGLeUjEnk=
 			</data>
 		</dict>
 		<key>Modules/simpletestsdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9S7uUqP+Wdbopntul2ZOr9yaIoACKOZIuxKPBmtlIbg=
+			KzS0Otdr58alrHUcMMfI6KG67OeR48E8+WXon1zBww8=
 			</data>
 		</dict>
 		<key>PageStoryboard.storyboardc/Info.plist</key>

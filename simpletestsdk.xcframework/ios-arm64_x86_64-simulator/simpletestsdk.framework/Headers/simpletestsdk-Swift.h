@@ -260,6 +260,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import ObjectiveC;
 #endif
 
 #endif
@@ -280,6 +281,27 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+@class UIViewController;
+@class PublicStruct;
+
+SWIFT_CLASS("_TtC13simpletestsdk14EntryInterface")
+@interface EntryInterface : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) EntryInterface * _Nonnull sharedInstance;)
++ (EntryInterface * _Nonnull)sharedInstance SWIFT_WARN_UNUSED_RESULT;
+- (void)startPageFlowWithCurrentViewController:(UIViewController * _Nonnull)currentViewController endFlowViewController:(UIViewController * _Nullable)endFlowViewController publicStruct:(PublicStruct * _Nonnull)publicStruct;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class NSString;
+
+SWIFT_CLASS("_TtC13simpletestsdk12PublicStruct")
+@interface PublicStruct : NSObject
+@property (nonatomic, copy) NSString * _Nonnull content;
+- (nonnull instancetype)initWithContent:(NSString * _Nonnull)content OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 #endif
 #if defined(__cplusplus)
 #endif
@@ -550,6 +572,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import ObjectiveC;
 #endif
 
 #endif
@@ -570,6 +593,27 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+@class UIViewController;
+@class PublicStruct;
+
+SWIFT_CLASS("_TtC13simpletestsdk14EntryInterface")
+@interface EntryInterface : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) EntryInterface * _Nonnull sharedInstance;)
++ (EntryInterface * _Nonnull)sharedInstance SWIFT_WARN_UNUSED_RESULT;
+- (void)startPageFlowWithCurrentViewController:(UIViewController * _Nonnull)currentViewController endFlowViewController:(UIViewController * _Nullable)endFlowViewController publicStruct:(PublicStruct * _Nonnull)publicStruct;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class NSString;
+
+SWIFT_CLASS("_TtC13simpletestsdk12PublicStruct")
+@interface PublicStruct : NSObject
+@property (nonatomic, copy) NSString * _Nonnull content;
+- (nonnull instancetype)initWithContent:(NSString * _Nonnull)content OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 #endif
 #if defined(__cplusplus)
 #endif

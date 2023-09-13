@@ -6,18 +6,17 @@ import PackageDescription
 let package = Package(
     name: "simpletestsdk",
     platforms: [
-        .iOS(.v11),
+        .iOS(.v11)
     ],
     products: [
         .library(
             name: "simpletestsdk",
-            targets: ["simpletestsdk"]
-        ),
+            targets: ["simpletestsdk"]),
     ],
     targets: [
         .binaryTarget(
             name: "simpletestsdk",
-            path: "./simpletestsdk.xcframework"
+            path: "simpletestsdk.xcframework"
         ),
     ]
 )
